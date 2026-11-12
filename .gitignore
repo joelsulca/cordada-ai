@@ -1,0 +1,16 @@
+# Sistema
+.DS_Store
+
+# Archivos temporales de Word (bloqueo mientras el documento está abierto)
+~$*
+
+# Python
+__pycache__/
+*.pyc
+
+# Configuración local del agente
+.claude/settings.local.json
+
+# Grafos y cachés generados en cada máquina
+.graphify/
+.cache_resumenes.json

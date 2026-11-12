@@ -1,0 +1,10 @@
+# .clinerules — cordada-ai
+
+Este workspace usa `AGENTS.md` como fuente canónica de reglas, para todos los agentes.
+
+Al iniciar cualquier sesión:
+1. Leer `AGENTS.md`. Si no existe `perfil/perfil.md`, ejecutar `.claude/skills/iniciar-workspace/SKILL.md` antes de cualquier otra cosa.
+2. En modo equipo: identificar al integrante con `git config user.name` y correr `git pull --rebase`.
+3. Si el mensaje menciona un curso, leer `courses/<slug>/CLAUDE.md`, `STATE.md`, la última entrada del JOURNAL y `decisions/README.md`.
+
+Los skills están en `.claude/skills/<nombre>/SKILL.md`: leer el que corresponda antes de la tarea (inventario en `AGENTS.md`, sección 12).

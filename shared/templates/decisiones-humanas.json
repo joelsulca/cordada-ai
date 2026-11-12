@@ -1,0 +1,12 @@
+{
+  "_leeme": "Decisión humana sobre cada elemento que la IA recomendó (por ejemplo, incluir o excluir un artículo en el cribado). Se guarda aparte de la recomendación de la IA para poder medir cuánto coinciden (porcentaje de acuerdo, kappa de Cohen). La clave identifica el elemento (para artículos, el DOI en minúsculas). Cada clave lleva un historial: si la decisión cambia, se agrega una entrada y no se borra la anterior.",
+  "_campos": {
+    "decision": "por ejemplo: Incluir | Excluir | Suplente",
+    "etapa": "por ejemplo: titulo | resumen | texto completo",
+    "recomendacion_ia": "lo que había recomendado la IA, si se conoce",
+    "motivo": "criterio o razón en una línea",
+    "quien": "nombre del integrante",
+    "fecha": "AAAA-MM-DD"
+  },
+  "decisiones": {}
+}

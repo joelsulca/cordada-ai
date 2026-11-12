@@ -1,0 +1,19 @@
+{
+  "_leeme": "Cadenas de búsqueda de la demo. Las claves que empiezan con _ son metadatos. Ver .claude/skills/buscar-articulos/SKILL.md.",
+  "_preguntas": {
+    "P1": {"categoria": "Problema", "palabras": ["student dropout", "attrition", "retention", "higher education"]},
+    "P2": {"categoria": "Técnica", "palabras": ["machine learning", "random forest", "gradient boosting", "xgboost", "neural network", "classification"]},
+    "P3": {"categoria": "Aporte", "palabras": ["early warning", "explainab", "interpretab", "shap", "decision support"]}
+  },
+  "_historial": [
+    {"fecha": "2027-03-15", "cadena": "C1, C2", "antes": "", "despues": "versión inicial", "motivo": "primera planificación de la revisión"}
+  ],
+  "C1": {
+    "preguntas": "P1, P2",
+    "query": "TITLE-ABS-KEY((\"student dropout\" OR \"student attrition\") AND (\"machine learning\" OR \"predictive model\") AND (\"higher education\" OR university))"
+  },
+  "C2": {
+    "preguntas": "P1, P3",
+    "query": "TITLE-ABS-KEY((\"early warning\" OR \"decision support\") AND (\"student dropout\" OR \"student retention\") AND (explainable OR interpretable OR SHAP))"
+  }
+}

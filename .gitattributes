@@ -1,0 +1,2 @@
+# Material oficial de los cursos: se guarda byte a byte, sin normalizar finales de línea.
+courses/*/docs/** -text

@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "Si usas cordada-ai en un trabajo académico, cítalo con estos datos. / If you use cordada-ai in academic work, please cite it as below."
+title: "cordada-ai: a harness for students"
+abstract: "Workspace para trabajar con agentes de IA en la universidad, con memoria por curso, reglas con fuente y evidencia del uso de IA. / A workspace that gives AI coding agents per-course memory, sourced rules and evidence of AI use for university students."
+type: software
+authors:
+  - family-names: "Sulca Cordova"
+    given-names: "Joel Elias"
+version: 0.1.0
+date-released: 2026-11-11
+license: MIT
+repository-code: "https://github.com/joelsulca/cordada-ai"
+keywords:
+  - AI agents
+  - harness engineering
+  - AGENTS.md
+  - Claude Code
+  - higher education
+  - academic integrity
+  - systematic literature review
